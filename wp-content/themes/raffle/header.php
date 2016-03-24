@@ -10,6 +10,9 @@
 <html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
 
 <head>
+ 	 <meta name="robots" content="nofollow">
+
+  
     <meta charset="utf-8">
 
     <?php // force Internet Explorer to use the latest rendering engine available ?>
