@@ -1,0 +1,1027 @@
+@import url(../lib/bootstrap/css/bootstrap.min.css);
+@import url(../lib/font-awesome/css/font-awesome.min.css);
+@import url(../lib/owl.carousel/owl-carousel/owl.carousel.css);
+@import url(../lib/sweetalert-master/dist/sweetalert.css);
+@import url(general.css);
+@import url(responsive.css);
+
+@font-face{font-family: Roboto-Black; src: url(../font/roboto/Roboto-Black.ttf);}
+@font-face{font-family: Roboto-BlackItalic; src: url(../font/roboto/Roboto-BlackItalic.ttf);}
+@font-face{font-family: Roboto-Bold; src: url(../font/roboto/Roboto-Bold.ttf);}
+@font-face{font-family: Roboto-BoldItalic; src: url(../font/roboto/Roboto-BoldItalic.ttf);}
+@font-face{font-family: RobotoCondensed-Bold; src: url(../font/roboto/RobotoCondensed-Bold.ttf);}
+@font-face{font-family: RobotoCondensed-BoldItalic; src: url(../font/roboto/RobotoCondensed-BoldItalic.ttf);}
+@font-face{font-family: RobotoCondensed-Italic; src: url(../font/RobotoCondensed-Italic.ttf);}
+@font-face{font-family: RobotoCondensed-Light; src: url(../font/RobotoCondensed-Light.ttf);}
+@font-face{font-family: RobotoCondensed-LightItalic; src: url(../font/RobotoCondensed-LightItalic.ttf);}
+@font-face{font-family: RobotoCondensed-Regular; src: url(../font/RobotoCondensed-Regular.ttf);}
+@font-face{font-family: Roboto-Italic; src: url(../font/Roboto-Italic.ttf);}
+@font-face{font-family: Roboto-Light; src: url(../font/Roboto-Light.ttf);}
+@font-face{font-family: Roboto-LightItalic; src: url(../font/Roboto-LightItalic.ttf);}
+@font-face{font-family: Roboto-Medium; src: url(../font/Roboto-Medium.ttf);}
+@font-face{font-family: Roboto-MediumItalic; src: url(../font/Roboto-MediumItalic.ttf);}
+@font-face{font-family: Roboto-Regular; src: url(../font/Roboto-Regular.ttf);}
+@font-face{font-family: Roboto-Thin; src: url(../font/Roboto-Thin.ttf);}
+@font-face{font-family: Roboto-ThinItalic; src: url(../font/Roboto-ThinItalic.ttf);}
+@font-face{font-family: Roboto-Bold; src: url(../font/Roboto-Bold.ttf);}
+@font-face{font-family: Roboto-BoldItalic; src: url(../font/Roboto-BoldItalic.ttf);}
+
+body {
+    font-family: Roboto-Regular !important;
+}
+header {
+    position: relative;
+    /*background: red;*/
+    height: 174px;
+}
+.inner-header{
+    width: 100%;
+    /*background-color: red;*/
+    height: 174px;
+    position: fixed;
+    z-index: 1000;
+}
+.top-nav{
+    background-color: #fff;
+}
+.top-area p {
+    color: #0f3884;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Roboto-BoldItalic;
+}
+.top-area ul li a {
+    color: #0f3884;
+    font-size: 16px;
+    font-family: Roboto-BoldItalic;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.top-area ul li {
+    color: #0f3884;
+    font-size: 16px;
+    font-family: Roboto-BoldItalic;
+    margin-top: 10px;   
+}
+.header {
+    background-color: #0f3884;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0px;
+}
+.navbar-header a img {
+    margin-top: 20px;
+}
+.timing {
+    border-bottom: 1px solid #fff;
+}
+.timing ul li {
+    color: #fff;
+    margin-right: 1%;
+    margin-top: 15px;
+    font-family: Roboto-BoldItalic;
+    font-size: 20px;
+}
+.timing ul li i {
+    color: #ff0000;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.timing .btn-danger {
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-family: Roboto-Bold;
+    font-size: 24px;
+}
+.top-bar-nav li a{
+    color: #fff !important;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.discount {
+    background-color: #e1f4fd;
+}
+.dis-area ul li {
+    width: 153px;
+    margin-right: 10px;
+}
+.prices a {
+    text-decoration: none;
+}
+.prices li p{
+    text-align: center;
+    font-family: Roboto-Bold;
+    color: #000;
+    font-size: 29.16px;
+    line-height: 40px;
+}
+.prices li p .s1{
+    color: #fd1011;
+}
+.prices li p .dol{
+    color: #0f3884;
+    vertical-align: top;
+}
+.prices li p .price{
+    color: #0f3884;
+    font-size: 60px;
+}
+.prices li p .smal{
+    color: #0f3884;
+    text-decoration: underline;
+    vertical-align: top;
+}
+.quntites a {
+    font-size: 29px;
+    color: #0f3884;
+    font-family: Roboto-Bold;
+}
+.quntites p {
+    font-size: 18px;
+    font-family: Roboto-Bold;
+    color: #ff0000;
+}
+.ordering {
+    background-color: #ff0000;
+}
+.order-area h1 {
+    font-family: Roboto-Bold;
+    color: #fff;
+    margin-top: 8px;
+}
+.printed {
+    background-color: #e1f4fd;
+}
+.printed h2 {
+    margin-left: 25px;
+    font-size: 30px;
+    font-family: Roboto-Bold;
+    color: #0f3884;
+}
+.printed-area li {
+    margin-left: 25px;
+    font-family: Roboto-Bold;
+    font-size: 20px;
+}
+.printed-area li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    float: left;
+    color: #313030;
+    padding-right: 5px;
+}
+.raffle-ticket h1 {
+    color: #191818;
+    font-family: Roboto-Bold;
+    font-size: 24px;
+}
+.raffle-ticket p {
+    color: #191818;
+    font-family: Roboto-Medium;
+}
+.links-bar {
+    background-color: #0f3884;
+}
+.resource-bar li a {
+    color: #cfd7e6;   
+    line-height: 30px;
+}
+/*.resource-bar li:before {
+    content: '\f054';
+    font-family: 'FontAwesome';
+    float: left;
+    color: #cfd7e6;
+    padding-right: 5px;
+    margin-top: 7px;
+}*/
+.img-area {
+    position: relative;
+}
+.img-area .img-bar {
+    position: absolute;
+    top: -36%;
+    right: 6px;
+    width: 31%;
+}
+.footer {
+    background-color: #e1f4fd;
+}
+.star ul span.foot-param {
+    color: #0f3884;
+}
+.star .aim {
+    color: #0f3884;
+    font-family: Roboto-BoldItalic;
+    font-size: 16px;
+}
+.star ul li i {
+    color:  #00ff00;
+    font-size: 30px;
+    margin-left: -5px;
+}
+.copy-right {
+    background-color: #0f3884;
+}
+.copyright-area p{
+    color: #fff;
+    font-family: Roboto-Bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.faq-area h1 {
+    color: #ff0000;
+    font-family: Roboto-Bold;
+    line-height: 0px;
+    padding-top: 50px;
+}
+.faq-area h3 {
+    color: #838383;
+    font-family: Roboto-Bold;
+}
+.faq-area h4 {
+    color: #000;
+    font-family: Roboto-Bold;
+    margin-top: 30px;
+}
+.faq-area p {
+    color: #000;
+    margin-top: 30px;
+}
+.faq-area .param-area-bar{
+    color: #000;
+    margin-top: 50px;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+}
+.faq-area p span{
+    color: #0f3884;
+    margin-top: 50px;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+}
+.faq-area .param-area-bar-2{
+    color: #000;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 0px;
+}
+.faq-area .param-area-bar-3{
+    color: #000;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 0px;
+}
+.required {
+    margin-bottom: 5%;
+}
+.shipping {
+    background-color: #e1f4fd;
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
+    padding-bottom: 10px;
+}
+.head-area {
+    background: ;
+    width: 324px;
+    text-align: center;
+    transform: rotate(-90deg);
+    margin-top: 251%;
+    margin-left: -150%;
+    font-family: Roboto-Bold;
+    color: #0f3884;
+}
+.form-area{
+    background-color: #fff;
+    padding-top: 20px;
+}
+.form-feild label {
+    font-family: Roboto-Bold;
+    font-size: 14px;
+}
+.form-feild .text-area-bar {
+    margin-top: -8px;
+    line-height: 12px;
+} 
+.form-feild .control-label p {
+    font-size: 11px;
+}
+.form-input-area, .third-form .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-feild label span {
+    color: red;
+}
+.form-input-area:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.created {
+    background-color: #fff;
+    padding-top: 10px;
+}
+.form-feild  .control-1 {
+    text-align: right;   
+    margin-top: 7px;
+}
+p.asim-1 {
+    margin-top: 8px;
+}
+.ticket-color {
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding: 15px;
+}
+.asim-2 p {
+    margin-left: 12px;
+    margin-top: 4px;
+}
+.color-area {
+    margin-left: 13.5%;
+}
+.color-area li {
+    font-family: Roboto-Bold;
+    font-size: 16px;    
+    margin-left: 14px;
+}
+.color-area .yellow {
+    border: 1px solid #000;
+    background-color: #fff59a;
+    padding: 0px 12px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.color-area .white {
+    border: 1px solid #000;
+    padding: 0px 12px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.color-area .blue {
+    border: 1px solid #000;
+    background-color: #e1f4fd;
+    padding: 0px 12px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.color-area .green {
+    border: 1px solid #000;
+    background-color: #e1ecd6;
+    padding: 0px 12px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.color-area .pink {
+    border: 1px solid #000;
+    background-color: #ffe2e2;
+    padding: 0px 12px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.img-bar {
+    padding-left: 63px;
+}
+.selector {
+    padding-left: 65px;
+}
+.inner-selector {
+    background-color: #fff;
+    width: 75%;
+    padding-bottom: 10px;
+}
+.inner-selector h2{
+    color: #0f3884;
+    font-family: Roboto-Bold;
+    text-align: center;    
+    font-size: 25px;
+    padding-top: 15px;
+}
+.inner-input .spa-1 {
+    color: #000;
+    font-family: Roboto-Bold;
+    font-size: 16px;
+    padding-left: 25px;
+    line-height: 30px;
+}
+.inner-input .spa-2 {
+    color: #000;
+    float: right;
+    font-family: Roboto-Bold;
+    /*padding-right: 30px;*/
+    /*font-size: 16px;*/
+    /*line-height: 30px;*/
+}
+.inner-input li span input {
+    margin-right: 16px;
+}
+.arrow-btn .btn-danger, .arrow-btn .btn-danger:focus, .arrow-btn .btn-danger:active{
+    margin-left: 4px;
+    margin-top: 25px;
+    background-image: url(../img/left.png);
+    height: 200px;
+    width: 193px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow:none;
+    font-family: Roboto-Bold;
+    box-shadow:none;
+}
+.arrow-btn .btn-info {
+    margin-right: 26px;
+    margin-top: 25px;
+    background-image: url(../img/right.png);
+    height: 200px;
+    width: 193px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    font-family: Roboto-Bold;
+    border: none;
+}
+.arrow-btn .btn-info, .arrow-btn .btn-info:focus, .arrow-btn .btn-info:active{
+    margin-right: 26px;
+    margin-top: 25px;
+    background-image: url(../img/right.png);
+    height: 200px;
+    width: 193px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+        -webkit-box-shadow:none;
+    font-family: Roboto-Bold;
+    box-shadow:none;
+}
+.arrow-btn button span {
+    position: absolute;
+    top: 63.4%;
+    left: 54px;
+    font-family: Roboto-Bold;
+    font-size: 24px;    
+    color: #000;
+}
+.arrow-btn button .right-bar {
+    position: absolute;
+    top: 63.4%;
+    left: 55%;
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #000;
+}
+
+.arrow-btn-2 .btn-danger, .arrow-btn-2 .btn-danger:focus, .arrow-btn-2 .btn-danger:active{
+    margin-left: 54px;
+    margin-top: 25px;
+    background-image: url(../img/left.png);
+    height: 105px;
+    width: 193px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    font-family: Roboto-Bold;
+    box-shadow: none;
+}
+.arrow-btn-2 .btn-info {
+    margin-right: 55px;
+    margin-top: 25px;
+    background-image: url(../img/right.png);
+    height: 200px;
+    width: 193px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    font-family: Roboto-Bold;
+    box-shadow: none;
+}
+.arrow-btn-2 .btn-info, .arrow-btn-2 .btn-info:focus, .arrow-btn-2 .btn-info:active{
+    margin-right: 55px;
+    margin-top: 25px;
+    background-image: url(../img/right.png);
+    height: 105px;
+    width: 193px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    font-family: Roboto-Bold;
+    box-shadow: none;
+}
+.arrow-btn-2 button span {
+    /*position: absolute;*/
+    /*top: 80.5%;*/
+    /*left: 58%;*/
+    font-size: 24px;
+    font-family: Roboto-Bold;
+    color: #000;
+}
+.arrow-btn-2 button .right-bar {
+    /*position: absolute;*/
+    /*top: 80.5%;*/
+    /*left: 80%;*/
+    font-size: 24px;
+    font-family: Roboto-Bold;
+    color: #000;
+}
+
+.arrow-btn-3 .btn-danger, .arrow-btn-3 .btn-danger:focus, .arrow-btn-3 .btn-danger:active{
+    margin-left: 54px;
+    margin-top: 15%;
+    background-image: url(../img/left.png);
+    height: 200px;
+    width: 193px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    font-family: Roboto-Bold;
+    box-shadow: none;
+}
+.arrow-btn-3 button span {
+    position: absolute;
+    top: 85.9%;
+    left: 57%;
+    font-size: 24px;
+    font-family: Roboto-Bold;
+    color: #000;
+}
+.arrow-btn-3 .btn-info {
+    margin-right: 55px;
+    margin-top: 25px;
+    background-image: url(../img/right.png);
+    height: 200px;
+    width: 193px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    font-family: Roboto-Bold;
+    box-shadow: none;
+}
+.arrow-btn-3 .btn-info, .arrow-btn-3 .btn-info:focus, .arrow-btn-3 .btn-info:active{
+    margin-right: 55px;
+    margin-top: 15%;
+    background-image: url(../img/right.png);
+    height: 200px;
+    width: 193px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    font-family: Roboto-Bold;
+    box-shadow: none;
+}
+.arrow-btn-3 button .right-bar {
+    position: absolute;
+    top: 85.7%;
+    left: 77.9%;
+    font-size: 24px;
+    font-family: Roboto-Bold;
+    color: #000;
+}
+.required-2 {
+    margin-bottom: 0%;
+}
+.ticket-contity{
+    width: 93.7%;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-top: 2%;
+    /*background-color: red;*/
+}
+/*tabs*/
+
+body{ 
+  /*  margin-top:40px; */
+}
+
+.stepwizard-step p {
+    margin-top: 10px;
+    color: #0f3884;
+    font-family: Roboto-bold;
+    font-size: 19px;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+.stepwizard-step button[disabled] {
+    /*opacity: 1 !important;*/
+    background-color: #fff;
+   /* filter: alpha(opacity=100) !important;*/
+}
+.btn-new{
+    /* cursor: not-allowed; */
+    background-color: #fff !important;
+     -webkit-box-shadow: none; 
+    /* box-shadow: none; */
+     opacity: 10 !important; 
+     border: 5px solid #0f3884 !important;
+}
+
+.stepwizard-row:before {
+    top: 18%;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 73%;
+    height: 7px;
+    background-color: #0f3884;
+    z-order: 0;
+    left: 14%;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.stepwizard-step a{
+    font-weight: bold;  
+
+}
+.stepwizard-step .btn-primary {
+    background-color: #0f3884 !important;
+    border-color: #0f3884;
+    color: #fff !important;
+}
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 50%;
+    opacity: 10 !important;
+    border: 5px solid #0f3884 !important;
+    background-color: #fff !important;
+}
+.stepwizard .bacha {
+    position: absolute;
+    left: -20%;
+    top: -48%;
+    z-index: 10;
+    width: 23%;
+}
+/*end tabs*/
+
+/*Css Ticket Area*/
+.ticket{
+    background-color: #fff8ac;
+    border: 1px solid #000;
+    height: 320px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);    
+    margin-bottom: 5% !important;
+        /*overflow-y: scroll;*/
+}
+.ticket-left{
+    /*background-color: red;*/
+    transform: rotate(-90deg);
+    margin-top: 22.6%;
+    width: 134%;
+    margin-left: -17%;
+    padding: 10px;
+    border-bottom: 2px dashed #000;
+}
+.ticket-left h3{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.ticket-left label{
+    
+    margin-right: 10px;
+}
+.inner-ticket-left{
+    margin-bottom: 10px;
+}
+.ticket-left .field{
+    
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px dashed black;
+    width: 80%;
+}
+.ticket-left .field2{
+    width: 75%;
+}
+.ticket-center h2 {
+    font-family: Roboto-Regular;
+    font-size: 30px;
+       /*line-height: 0px;*/
+    color: #000;
+    /*padding-top: 30px;*/
+}
+.ticket-center h3 {
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    color: #000;
+    line-height: 5px;
+}
+.ticket-nd p {
+    color: #000;
+    font-size: 20px;
+    /* margin-top: 15px; */
+    font-family: Roboto-Regular;
+}
+.ticket-center h3 span{
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    color: #000;
+    vertical-align: super;
+}
+.ticket-center p {
+    color: #000;
+    font-size: 20px;
+    /*margin-top: 15px;*/
+    font-family: Roboto-Regular;
+}
+.color-area .asim-2 {
+    position: absolute;
+}
+.ticket-center .inner-ticket-center {
+    margin-left: 15%;
+}
+.ticket-center .inner-ticket-center input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    outline: none;
+    width: 190px;
+}
+.ticket-right {
+    transform: rotate(-90deg);
+    /* background-color: red; */
+    width: 280px;
+    margin-top: 127px;
+    margin-left: -120px;
+}
+.txt-ticket h3 {
+    transform: rotate(-90deg);
+    /*background-color: red;*/
+    width: 319px;
+    margin-top: 150px;
+    margin-left: -130px;
+    font-size: 28px;
+    text-align: center;
+}
+.inner-ticket-center label {
+    color: #000 !important;
+}
+
+.inner-ticket-left .field:focus {
+    outline: none;
+}
+.no-pm
+{
+    padding:0px !important;
+    margin:0px !important;
+}
+label.block
+{
+    display: block;
+
+}
+
+/* Hiding the checkbox, but allowing it to be focused */
+.badgebox
+{
+    opacity: 0;
+}
+
+.badgebox + .badge
+{
+    /* Move the check mark away when unchecked */
+    text-indent: -999999px;
+    /* Makes the badge's width stay the same checked and unchecked */
+    width: 27px;
+}
+
+.badgebox:focus
+{
+    /* Set something to make the badge looks focused */
+    /* This really depends on the application, in my case it was: */
+    
+    /* Adding a light border */
+    box-shadow: inset 0px 0px 5px;
+    /* Taking the difference out of the padding */
+}
+
+.badgebox:checked + .badge
+{
+    /* Move the check mark back when checked */
+    text-indent: 0;
+}
+button.btn-label
+{
+    background-color: #fff;
+    border: none;
+    border-radius: 0px;
+    border: 1px solid #000;
+}
+button.btn-label:hover,button.btn-label:focus,button.btn-label:active
+{
+    background-color: #fff;
+    border: none;
+    border-radius: 0px;
+    border: 1px solid #000;
+}
+.btn-bold
+{
+    font-family: Roboto-Bold;
+}
+.input-lg
+{
+        height: 40px;
+        margin-top: 10px;
+}
+.serial-no
+{
+    padding-top: 30px;
+    font-family: Roboto-Bold;
+    line-height: 4;
+}
+
+table.custom-table td.text-center {
+    background-color: #fff !important;
+}
+
+.custom-table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: #e1f4fd;
+}
+
+.custom-table>tbody>tr>td, .custom-table>tbody>tr>th, .custom-table>tfoot>tr>td, .custom-table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #e1f4fd;
+}
+.panel-default>.panel-heading {
+    color: #000;
+    background-color: #e7e7e7;
+    border-color: #000;
+}
+.shipping h2 {
+    padding-left: 1%;
+    color: #0f3884;
+    font-family: Roboto-Bold;
+    padding-top: 25px;
+}
+.shipping h3 {
+    padding-left: 1%;
+    font-family: Roboto-Bold;
+    color: #000;
+        font-size: 2rem;
+}
+.paddingRight10
+{
+    padding-right: 10;
+}
+.third-form .mr1
+{
+    margin-right: 1.9%;
+}
+.margin-top {
+    margin-top:32px;
+}
+.mr1 .btn-primary {
+    background-color: #0f3884;
+    border: none;
+    border-radius: 0px;
+    padding: 12px 26px 12px 27px;
+}
+.color-area-bar {
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 4%;
+    text-transform: uppercase;
+    color: #0f3884;
+    font-family: Roboto-Bold;
+}
+.detail-btn .btn-default {
+    background-color: #707070;
+    /*margin-left: 16px;*/
+    border: none;
+    border-radius: 0px;
+    padding: 8px 100px 8px 100px;
+    font-family: Roboto-Bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.detail-btn p {
+    /*margin-left: 16px;*/
+    color: #858585;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.detail-btn p a {
+    color: #0f3884;
+    text-decoration: underline;
+}
+
+.normal
+{
+    font-family: Roboto-Regular !important;
+}
+.bold
+{
+   font-family: Roboto-Bold !important;
+}
+.italic
+{
+    font-family: Roboto-Italic !important;
+}
+.label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+     font-family: Roboto-Bold !important;
+}
+.btn-arrow{
+     padding: 0px 10px 0px 10px !important;
+     font-size: 8px;
+     margin-bottom: 1px;
+}
+.btn-gray
+{
+    background-color:  #C7C7C7 !important;
+}
+.btn-gray:active, .btn-gray:focus
+{
+    background-color: #C7C7C7 !important;
+}
+ /*   background-color: #fff;
+    border: none;
+    border-radius: 0px;
+    border: 1px solid #000;*/
+   
+   .text-blue small
+   {
+    color: #0F3884 !important;
+   }
+   .toggle-btn, .toggle-btn:hover, .toggle-btn:focus, .toggle-btn:active
+   {
+    text-decoration: none;
+   }
+   .raffle-content h1
+   {
+        color: #ff0000;
+        font-family: Roboto-Bold;
+        font-size: 36px;
+   }
+      .raffle-content p strong
+   {
+        font-family: Roboto-Bold;
+        text-decoration: underline;
+   }
+   .i-center
+   {
+    margin: 0 auto;
+   }
+   .content-blog h1
+   {
+        color: #0F3884;
+   }
+
+
+.radio-popular p {
+position: absolute;
+font-size: 12px;
+left: 32px;
+}

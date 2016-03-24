@@ -1,0 +1,4 @@
+[14-Mar-2016 20:14:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/desiqbtw/public_html/demo/raffle/wp-content/themes/raffle/footer.php on line 705
+[16-Mar-2016 16:53:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/desiqbtw/public_html/demo/raffle/wp-content/themes/raffle/footer.php on line 505
+[16-Mar-2016 21:02:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/desiqbtw/public_html/demo/raffle/wp-content/themes/raffle/footer.php on line 1106
+[18-Mar-2016 14:52:59 UTC] PHP Parse error:  syntax error, unexpected ''application/msword'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/desiqbtw/public_html/demo/raffle/wp-content/themes/raffle/functions.php on line 302

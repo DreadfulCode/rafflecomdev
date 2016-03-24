@@ -1,0 +1,397 @@
+/******************************************************************
+Theme Name: Raffle Ticketing
+Theme URI: http://www.imc.dev/
+Description: This site was built using the Bones Development Theme. For more information about Bones or to view documentation, you can visit the <a href="https://github.com/eddiemachado/bones/issues" title="Bones Issues">Bones Issues</a> page on Github. You'll want to customize this for your clients with your own information.
+Author: Baqir
+Author URI: http://baqirmemon.github.io/
+Version: 1.7
+Tags: fluid-layout, responsive-layout, accessibility-ready, translation-ready, microformats, rtl-language-support
+
+License: WTFPL
+License URI: http://sam.zoy.org/wtfpl/
+*/
+@import url(assets/css/style.css);
+
+strong {
+    font-family: Roboto-Bold;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #555;
+    background-color: #FF0000;
+}
+
+.radio-color {
+    margin-top: 8px !important;
+}
+
+.radio-popular p {
+    position: absolute;
+}
+
+.inner-input.radio-delivery {
+    padding: 15px;
+}
+
+/*owl testimonial*/
+
+.owl-test-area h1 {
+    position: relative;
+    color: #071c4f;
+    font-family: Roboto-Medium;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.owl-test-area h1 .line {
+    position: absolute;
+    background-color: #071c4f;
+    height: 2px;
+    width: 24%;
+    top: 35%;
+    right: 42%;
+}
+
+.owl-test-area img {
+    margin-right: 20px;
+}
+
+.customNavigation .prev-test i {
+    left: 5%;
+    position: absolute;
+    top: 68%;
+    color: #9a9d95;
+    font-size: 40px;
+}
+
+.customNavigation .next-test i {
+    left: 94%;
+    position: absolute;
+    top: 68%;
+    color: #9a9d95;
+    font-size: 40px;
+}
+
+.owl-test-area {
+    position: relative;
+}
+
+.copyright-area a,
+.copyright-area a:hover {
+    color: #fff;
+}
+
+.italic {
+    font-family: Roboto-Italic;
+}
+
+li.tc-li {
+    position: relative;
+}
+
+.no-stub-ticket-right {
+    position: absolute;
+    right: 0px;
+    height: 100%;
+}
+
+.no-stub-ticket-content {
+    width: 100%;
+}
+
+.no-stub-ticket-left {
+    transform: rotate(-90deg);
+    margin-top: 39.7%;
+    width: 119%;
+    margin-left: -54%;
+    position: absolute;
+    padding: 10px;
+    left: 37px;
+    border: none;
+}
+
+legend {
+    color: #0F3884;
+    margin-top: 2%;
+}
+
+input[type="image"] {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.modal-payment {
+    padding-top: 10%;
+}
+
+.back-to-home {
+    background-image: url(assets/img/back-to-home.png) !important;
+}
+
+.back-to-step-1 {
+    background-image: url(assets/img/back-to-step-1.png) !important;
+}
+
+.back-to-step-2 {
+    background-image: url(assets/img/back-to-step-2.png) !important;
+}
+
+.on-to-step-2 {
+    background-image: url(assets/img/on-to-step-2.png) !important;
+}
+
+.on-to-finish {
+    background-image: url(assets/img/on-to-finish.png) !important;
+}
+
+.submit-order {
+    background-image: url(assets/img/submit-order.png) !important;
+}
+
+.lightgray {
+    color: #d0d0d0;
+}
+
+@media all and (max-width: 767px) {
+
+    .inner-header {
+        position: inherit;
+    }
+}
+
+.div-method {
+    position: relative;
+}
+
+input#paypalPayment {
+    margin-left: 15%;
+}
+
+input.radio-method {
+    position: absolute;
+    top: 35%;
+    left: 0%;
+}
+
+.arrow-btn button {
+    height: 104px !important;
+}
+
+.ec_authorize_form_div {
+    display: none;
+}
+
+.panel-default > .panel-heading {
+    color: #000;
+    background-color: #e7e7e7;
+    border-color: #000;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.ticket-nd {
+    width: 792px;
+    height: 306px;
+    margin: 0 auto;
+    background-size: 100%;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+}
+
+.no-stub-text {
+
+}
+
+.stub-text {
+
+}
+
+.stub .stub-yellow {
+    background-image: url(assets/img/stub/yellow.jpg);
+    height: 306px;
+}
+
+.stub .stub-blue {
+    background-image: url(assets/img/stub/blue.jpg);
+    height: 306px;
+}
+
+.stub .stub-white {
+    background-image: url(assets/img/stub/white.jpg);
+    height: 306px;
+}
+
+.stub .stub-pink {
+    background-image: url(assets/img/stub/pink.jpg);
+    height: 306px;
+}
+
+.stub .stub-green {
+    background-image: url(assets/img/stub/green.jpg);
+    height: 306px;
+}
+
+.no-stub .stub-yellow {
+    background-image: url(assets/img/no-stub/yellow.jpg);
+    height: 306px;
+}
+
+.no-stub .stub-blue {
+    background-image: url(assets/img/no-stub/blue.jpg);
+    height: 306px;
+}
+
+.no-stub .stub-white {
+    background-image: url(assets/img/no-stub/white.jpg);
+    height: 306px;
+}
+
+.no-stub .stub-pink {
+    background-image: url(assets/img/no-stub/pink.jpg);
+    height: 306px;
+}
+
+.no-stub .stub-green {
+    background-image: url(assets/img/no-stub/green.jpg);
+    height: 306px;
+
+}
+
+.stub .text-ticket {
+    padding-left: 25%;
+
+}
+
+.no-stub .text-ticket {
+    /*padding-left: 25%;*/
+    padding-top: 0.1%;
+}
+
+@media all and (max-width: 767px) {
+    .ticket-nd {
+
+    }
+}
+
+.img60 {
+    display: block;
+    width: 200px;
+    height: 88px;
+    height: auto;
+    margin-left: 20px;
+
+}
+
+.stub .text-fixed {
+    width: 540px;
+    padding-left: 10%;
+    height: -23px;
+    height: 276px !important;
+    overflow: hidden;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* margin-bottom: 15px; */
+    /* margin-top: 15px; */
+    /*padding-bottom: 15px;*/
+
+    padding-top: 15px;
+
+}
+
+.no-stub .text-fixed {
+    width: 680px;
+    /*padding-left: 21%;*/
+    margin: 0 auto;
+    height: 306px !important;
+    overflow: hidden;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* margin-bottom: 15px; */
+    /* margin-top: 15px; */
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+.text-fixed p, .text-fixed h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+
+}
+
+.text-fixed h2 {
+    margin: 0;
+
+}
+
+.text-fixed p {
+    line-height: 28px;
+}
+
+.text-fixed h2 {
+
+    line-height: 35px;
+}
+
+.ticket-rel {
+    position: relative;
+}
+
+.actual-ticket {
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+
+.bold-italic {
+    font-family: Roboto-BoldItalic !important;
+}
+
+.alert-self {
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: #e9232b;
+    border: 2px solid #e9232b;
+    /*border-radius: 0px;*/
+}
+
+label.middle-label {
+    padding-top: 31px;
+    margin-left: 5%;
+    font-size: 22px;
+}
+
+.back-to-step-2 {
+    margin-left: 0px;
+}
+
+.arrow-btn-3 .btn-info, .arrow-btn-3 .btn-info:focus, .arrow-btn-3 .btn-info:active {
+    margin-right: 0px;
+    /*margin-top: 0px;*/
+}
+
+.alert-text {
+    width: 69.5%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.alert {
+    border-radius: 0px;
+
+}
+
+.arrow-btn-3 button {
+    height: 105px;
+}
+
+.sweet-alert p span {
+    text-transform: capitalize;
+}
