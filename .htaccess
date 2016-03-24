@@ -1,5 +1,3 @@
-AddType application/x-httpd-php55 .php
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
